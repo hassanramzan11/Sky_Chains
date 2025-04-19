@@ -170,11 +170,11 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 32px;
-  margin-right: 8px;
+  max-height: 30px;
+  margin-right: 0px;
 }
 
-.header .logo h1 {
+.header .logo h3 {
   font-size: 34px;
   margin: 0;
   font-weight: 400;
@@ -726,6 +726,10 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+.about{
+  padding-top: 150px;
+  padding-bottom: 215px;
+}
 .about .content h3 {
   font-size: 2rem;
   font-weight: 700;
@@ -761,12 +765,14 @@ section,
   background-position: left center;
   background-repeat: no-repeat;
   position: relative;
+  padding-bottom: 200px;
 }
 
 @media (max-width: 640px) {
   .contact {
     background-position: center 50px;
     background-size: contain;
+    
   }
 }
 
